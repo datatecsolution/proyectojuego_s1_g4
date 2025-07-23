@@ -1,4 +1,6 @@
-public class juego {
+package net.perlasjp.juego;
+
+public class jugador {
     private String nombre;
     private int salud;
     private int fuerza;
