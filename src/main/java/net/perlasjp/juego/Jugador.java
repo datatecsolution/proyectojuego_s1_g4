@@ -6,7 +6,7 @@ public class Jugador {
     private int fuerza;
 
     public int atacar() {
-
+        return 0;
     }
 
     public void recibirDanio() {
@@ -14,15 +14,20 @@ public class Jugador {
     }
 
     public boolean estaVivo() {
-
+        return false;
     }
 
     public Jugador(String nombre) {
 
     }
 
-    public String getSalud() {
+    public String getNombre() {
+        return nombre;
 
+    }
+
+    public String getSalud() {
+        return salud;
     }
 
     public void mostrarEstado() {
