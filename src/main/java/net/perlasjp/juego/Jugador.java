@@ -26,7 +26,7 @@ public class Jugador {
 
     }
 
-    public String getSalud() {
+    public int getSalud() {
         return salud;
     }
 
