@@ -1,33 +1,33 @@
 package net.perlasjp.juego;
 
-public class Enemigo{
+public class Enemigo {
 
-private String nombre;
-private int salud;
-private int fuerza;
+    private String nombre;
+    private int salud;
+    private int fuerza;
 
-public int atacar(){
-return 0;
+    public int atacar() {
+        return 0;
+    }
+
+    public void recibirDanio(int danio) {
+
+    }
+
+    public boolean estarVivo() {
+        return false;
+
+    }
+
+    public Enemigo(int String) {
+
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getSalud() {
+        return salud;
+    }
 }
-public void recibirDanio(int danio){
-
-
-}
-public boolean estarVivo(){
-    return false;
-
-}
-
-public Enemigo (int String ){
-
-}
-
-public String getNombre(){
-
-}
-public int getSalud(){
-    return 0; 
-}
-}
-
-
